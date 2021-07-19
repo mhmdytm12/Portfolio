@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/about')
+fetch('https://portfolio-ym.herokuapp.com/about')
   .then(response => response.json())
   .then(json => {
 
@@ -38,7 +38,8 @@ console.log(json)
   })
 
 //------------------------------------------------------------------------------------
-fetch('http://localhost:3000/services')
+
+fetch('https://portfolio-ym.herokuapp.com/services')
   .then(response => response.json())
   .then(json => {
 
